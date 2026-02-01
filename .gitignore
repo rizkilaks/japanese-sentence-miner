@@ -1,0 +1,41 @@
+# Binaries
+/bin/
+/cmd/api/api
+/cmd/api/api.exe
+
+# Dependencies
+/vendor/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+/data/jmdict/*.gz
+/data/jlpt/*.csv
+
+# Logs
+*.log
+
+# Test coverage
+*.out
+coverage.html
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Docker
+docker-compose.override.yml
